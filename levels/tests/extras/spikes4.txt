@@ -1,0 +1,10 @@
+test spikes (par A.-S. Guilbert--Ly )
+4
+###
+###
+#H#
+# #
+#S#
+# #
+#D#
+###

@@ -1,5 +1,5 @@
 from collections import namedtuple
-from helltaker_utils import grid_from_file, check_plan
+from helltaker_utils_given import grid_from_file, check_plan
 import time
 import sys
 
@@ -561,16 +561,18 @@ def monsuperplanificateur(infos):
 def main():
     # récupération du nom du fichier depuis la ligne de commande
     filename = sys.argv[1]
-
+    
     # récupération de al grille et de toutes les infos
     infos = grid_from_file(filename)
 
     # calcul du plan
+    start_time = time.time()
     plan = monsuperplanificateur(infos)
-
+    ExecTime= time.time() - start_time
     # affichage du résultat
     if check_plan(plan):
         print("[OK]", plan)
+        print("--- search alogrithm execution time %s seconds ---"%(ExecTime)) 
     else:
         print("[Err]", plan, file=sys.stderr)
         sys.exit(2)

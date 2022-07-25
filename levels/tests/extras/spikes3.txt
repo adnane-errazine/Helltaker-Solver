@@ -1,0 +1,7 @@
+Spikes et Block (proposée par H. Milair, corrigée par M. A. Errazine)
+9
+     ###
+######D####
+#H   O    #
+###########
+

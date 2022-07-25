@@ -1,0 +1,5 @@
+Simple corridor with lock and key
+12
+#############
+#K  H    L D#
+#############

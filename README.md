@@ -40,5 +40,5 @@ H ## M #
 ```
  
 # Credits #
-this project 
+this project is 
 supervised by Pr. Sylvain Lagrue

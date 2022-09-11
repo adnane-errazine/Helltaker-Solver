@@ -4,12 +4,12 @@
 # Usage example : #
  
 ``` python3 Helltaker_State_Space_Search.py levels/level2.txt ```
-
+# Description #
  In order to create a new map :
  Inside a .txt file 
-   -first line :
-   -second line :
-   -the rest is for using this 
+   -first line : Title / Description
+   -second line : maximum cost to pass the level
+   -the rest : we used this vocabulary to implement the map
 H: hero
 D: demoness
 #: wall
@@ -38,7 +38,9 @@ H ## M #
 ####D M#
 ########
 ```
- 
+# Performance per Algorithm #
+![image](https://user-images.githubusercontent.com/71216079/189544758-5f2282ee-2864-4ac4-ae24-47c8b3f4e936.png)
+
 # Credits #
-this project is 
+this project was
 supervised by Pr. Sylvain Lagrue
